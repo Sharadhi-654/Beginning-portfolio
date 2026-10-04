@@ -1,136 +1,85 @@
 # Sharadhi Acharya — AI & Data Science Portfolio
 
-A modern, high-performance portfolio website built for **Sharadhi Acharya**, undergraduate engineer in Artificial Intelligence and Data Science at SMVITM (CGPA: 8.2).
-
-Includes all resume credentials, hackathon projects (EduQuest, Banking Management System, Skill Mapper, AI Voice for Mute Mate), certifications (MathWorks ML, Agentic AI), and personal hobbies (Singing, Reading, Active Listening, and Family).
-
----
-
-## 🚀 How to Run Locally in VS Code
-
-### Prerequisites
-Make sure you have **Node.js** (v18 or higher) and **Git** installed on your system.
-- Download Node.js: [https://nodejs.org/](https://nodejs.org/)
-- Download Git: [https://git-scm.com/](https://git-scm.com/)
-- Download VS Code: [https://code.visualstudio.com/](https://code.visualstudio.com/)
-
----
-
-### Step 1: Open the Project in VS Code
-1. Open Visual Studio Code.
-2. Click **File > Open Folder...** and choose this project folder.
-3. Open the built-in terminal by pressing `` Ctrl + ` `` (Windows/Linux) or `` Cmd + ` `` (Mac).
-
----
-
-### Step 2: Install Dependencies
-In the VS Code terminal, run:
-```bash
+A modern, high-performance portfolio website built for Sharadhi Acharya, undergraduate engineer in Artificial Intelligence and Data Science at Shri Madhwa Vadiraja Institute of Technology and Management (SMVITM), Udupi (CGPA: 8.2).
+Showcases full resume credentials, hackathon projects (EduQuest, Banking Management System, Skill Mapper, AI Voice Assistive Tech), certifications (MathWorks Machine Learning Onramp, Agentic AI), and creative pursuits (Classical Singing, Reading, Active Listening, and Family).
+🌟 Highlights & Features
+Hero & Developer Terminal: High-tech interactive code terminal and monogram identity card featuring live stack metadata.
+Academic & Heritage Story: Academic journey at SMVITM Bantakal and technical vision grounded in Udupi, Karnataka.
+Categorized Technical Skills: Interactive skill matrices across Programming Languages, Web Frameworks, Databases & Tools.
+Bento Project Showcase: In-depth case studies with architecture breakdowns, technical challenges, and live GitHub links.
+Hackathons & Certifications: IEEE ANVESHAN 2025, IDEATHON 2025, and MathWorks credentials.
+Creative Pursuits & Audio Synth: Interactive classical music frequencies showcase, literature reflections, and core values.
+Printable ATS Resume & PDF Export: Formatted single-page resume with standard browser 1-click print and PDF download.
+Direct Contact Grid: 1-click email and phone copying plus direct links to LinkedIn and GitHub.
+💻 How to Run Locally in VS Code
+Prerequisites
+Make sure you have Node.js (v18 or higher) installed:
+Download Node.js: https://nodejs.org/
+Download VS Code: https://code.visualstudio.com/
+Step 1: Open the Project in VS Code
+Open Visual Studio Code.
+Click File > Open Folder... and select this project directory.
+Open the integrated terminal (Ctrl + ` on Windows / Cmd + ` on Mac).
+Step 2: Install Dependencies
+code
+Bash
 npm install
-```
-This installs React, Vite, Tailwind CSS, Lucide icons, and TypeScript.
-
----
-
-### Step 3: Run the Development Server
-In the VS Code terminal, run:
-```bash
+(If you encounter any peer dependency flags on older npm versions, use npm install --legacy-peer-deps)
+Step 3: Start the Development Server
+code
+Bash
 npm run dev
-```
-You will see output like:
-```
-  VITE v8.x.x  ready in 200 ms
-
-  ➜  Local:   http://localhost:5173/
-  ➜  Network: use --host to expose
-```
-Hold `Ctrl` (or `Cmd`) and click the link, or open your web browser and navigate to `http://localhost:5173`. Any changes you make to the code in VS Code will immediately update in your browser.
-
----
-
-### Step 4: Build for Production
-To create an optimized production build for deployment:
-```bash
+Open your browser and navigate to:
+code
+Code
+http://localhost:3000
+Any changes saved in VS Code will automatically update live in your browser!
+Step 4: Build for Production
+To generate an optimized production build in the dist/ directory:
+code
+Bash
 npm run build
-```
-This generates a static `dist/` directory containing the optimized HTML, CSS, JavaScript, and asset bundles.
-
----
-
-## 🐙 How to Push to GitHub
-
-### Step 1: Initialize Git and Commit
-In your VS Code terminal:
-```bash
-git init
+🐙 Push Updates to GitHub
+Whenever you make updates in VS Code, run these 3 commands:
+code
+Bash
 git add .
-git commit -m "Initial commit: Sharadhi Acharya Portfolio"
-```
-
-### Step 2: Connect to your GitHub Repository
-1. Go to [https://github.com/new](https://github.com/new) and create a new repository (e.g. `Sharadhi-654/portfolio`).
-2. Run the following commands in your VS Code terminal:
-```bash
-git branch -M main
-git remote add origin https://github.com/Sharadhi-654/portfolio.git
-git push -u origin main
-```
-
----
-
-## 🌐 Free 1-Click Hosting Options
-
-### Option A: Vercel (Recommended)
-1. Go to [https://vercel.com](https://vercel.com) and sign in with GitHub.
-2. Click **Add New > Project** and select your `portfolio` repository.
-3. Keep default settings (`Framework Preset: Vite`) and click **Deploy**.
-4. Your site will be live with a free custom SSL domain!
-
-### Option B: GitHub Pages
-1. In your GitHub repository, go to **Settings > Pages**.
-2. Under **Build and deployment > Source**, select **GitHub Actions**.
-3. Choose the **Static HTML** or **Vite** starter workflow to deploy `dist/` automatically.
-
----
-
-## 📁 Project Structure
-
-```
-├── index.html                 # HTML entry point with Google Fonts and meta tags
-├── metadata.json              # Applet metadata
-├── package.json               # NPM scripts and dependencies
+git commit -m "Update portfolio content"
+git push
+Your changes will automatically reflect on https://github.com/Sharadhi-654/Beginning-portfolio.
+📁 Project Structure
+code
+Code
+├── index.html                 # HTML entry point with typography and meta tags
+├── package.json               # Scripts and dependencies (React 19, Vite, Tailwind v4)
 ├── vite.config.ts             # Vite configuration with Tailwind CSS plugin
-├── tsconfig.json              # TypeScript configuration
+├── tsconfig.json              # TypeScript strict configuration
 ├── src/
-│   ├── main.tsx               # React application entry
-│   ├── App.tsx                # Main layout orchestrator
+│   ├── main.tsx               # React application entry point
+│   ├── App.tsx                # Main layout coordinator
 │   ├── index.css              # Tailwind v4 configuration, theme, and print styles
 │   ├── data/
-│   │   └── portfolioData.ts   # Centralized data model from resume & hobbies
+│   │   └── portfolioData.ts   # Centralized data model for all resume and project data
 │   ├── assets/
-│   │   └── images/            # High-fidelity project screenshots & avatar
+│   │   └── images/            # High-fidelity project screenshots & assets
 │   └── components/
-│       ├── Navbar.tsx         # Responsive top bar (3-zone contract)
-│       ├── Hero.tsx           # Split hero with avatar, metrics, bio
+│       ├── Navbar.tsx         # Responsive navigation bar with quick CV trigger
+│       ├── Hero.tsx           # Split hero with Developer Terminal & monogram card
 │       ├── AboutSection.tsx   # Academics, Udupi heritage, soft skills
 │       ├── SkillsSection.tsx  # Filterable skill cards (Languages, Web, DB, Tools)
 │       ├── ProjectsSection.tsx# Bento showcase with interactive architecture modals
 │       ├── ProjectModal.tsx   # Deep-dive project breakdown modal
 │       ├── HackathonsCertificatesSection.tsx # IEEE hackathon, Ideathons, MathWorks
-│       ├── HobbiesSection.tsx # Singing (audio synth), reading, listening, family
-│       ├── ContactSection.tsx # Direct message form + 1-click copy phone/email
+│       ├── HobbiesSection.tsx # Classical singing synth, reading, listening, family
+│       ├── ContactSection.tsx # Direct 4-card contact grid (Email, Phone, GitHub, LinkedIn)
 │       ├── ResumeModal.tsx    # ATS-formatted printable CV with 1-click PDF export
-│       ├── RunInVSCodeModal.tsx # Built-in interactive VS Code & GitHub runner
-│       └── Footer.tsx         # Quiet footer with credits and back-to-top
-└── README.md                  # Complete documentation
-```
-
----
-
-## 📬 Contact Info
-- **Name:** Sharadhi Acharya
-- **Email:** [sharadhiacharya654@gmail.com](mailto:sharadhiacharya654@gmail.com)
-- **Phone:** +91 9108250673
-- **LinkedIn:** [linkedin.com/in/sharadhi-acharya-b8a167367](https://www.linkedin.com/in/sharadhi-acharya-b8a167367)
-- **GitHub:** [github.com/Sharadhi-654](https://github.com/Sharadhi-654)
-- **Location:** Brahmavar, Udupi, Karnataka, India
+│       └── Footer.tsx         # Quiet footer with copyright and back-to-top
+└── README.md                  # Documentation
+📬 Contact & Connect
+Engineer: Sharadhi Acharya
+Degree: BE in Artificial Intelligence & Data Science (2024–2028)
+Institution: Shri Madhwa Vadiraja Institute of Technology and Management (SMVITM), Udupi
+Email: sharadhiacharya654@gmail.com
+LinkedIn: linkedin.com/in/sharadhi-acharya-b8a167367
+GitHub: github.com/Sharadhi-654
+Location: Brahmavar, Udupi, Karnataka, India
