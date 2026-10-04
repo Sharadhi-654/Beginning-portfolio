@@ -11,6 +11,7 @@ Hackathons & Certifications: IEEE ANVESHAN 2025, IDEATHON 2025, and MathWorks cr
 Creative Pursuits & Audio Synth: Interactive classical music frequencies showcase, literature reflections, and core values.
 Printable ATS Resume & PDF Export: Formatted single-page resume with standard browser 1-click print and PDF download.
 Direct Contact Grid: 1-click email and phone copying plus direct links to LinkedIn and GitHub.
+
 💻 How to Run Locally in VS Code
 Prerequisites
 Make sure you have Node.js (v18 or higher) installed:
@@ -20,11 +21,13 @@ Step 1: Open the Project in VS Code
 Open Visual Studio Code.
 Click File > Open Folder... and select this project directory.
 Open the integrated terminal (Ctrl + ` on Windows / Cmd + ` on Mac).
+
 Step 2: Install Dependencies
 code
 Bash
 npm install
 (If you encounter any peer dependency flags on older npm versions, use npm install --legacy-peer-deps)
+
 Step 3: Start the Development Server
 code
 Bash
@@ -34,11 +37,13 @@ code
 Code
 http://localhost:3000
 Any changes saved in VS Code will automatically update live in your browser!
+
 Step 4: Build for Production
 To generate an optimized production build in the dist/ directory:
 code
 Bash
 npm run build
+
 🐙 Push Updates to GitHub
 Whenever you make updates in VS Code, run these 3 commands:
 code
@@ -47,6 +52,9 @@ git add .
 git commit -m "Update portfolio content"
 git push
 Your changes will automatically reflect on https://github.com/Sharadhi-654/Beginning-portfolio.
+
+
+
 📁 Project Structure
 code
 Code
